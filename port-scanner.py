@@ -1,6 +1,7 @@
+
 import optparse 
 from socket import *
-
+from threading import *
 '''Its a port scanner command line tool that
 will scan all the comma seperated ports entered
 for the target host '''
